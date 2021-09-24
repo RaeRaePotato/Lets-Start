@@ -17,14 +17,9 @@ add_title("Rachelle Difilippo", "Miss")
 '''{r}
 add_title("Miss. Rachelle Difilippo", "Miss.")
 '''
-Problem #1
 
 |*Foundation For Academic Success*|*Precalc Algebra/Trigonometry*|*Into to Programming Using Python/Cloud Infrastructure*|*Intro To Data Science*|  
 |------|------|------|------|                                                              
 |**Sls**|**Mac**|**Cop**|**Cop**|     
 |**1901**|**1147**|**2034**|**2073**|     
-|0 Credits|3 Credits|3 Credits|3 Credits|     
-
-
-  
-
+|0 Credits|3 Credits|3 Credits|3 Credits|  

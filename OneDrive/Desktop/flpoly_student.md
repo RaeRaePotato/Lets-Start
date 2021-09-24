@@ -1,26 +1,30 @@
-## Rachelle Difilippo
+'''{r}
+add_title <- function(full_name, title){
+  #if the name begins with the title, just return the name
+  if (startsWith(full_name, title)) {
+    return(full_name) #no need to continue
+  }
+  name_with_title <- paste(title, full_name)
+  
+  name_with_title #spit out
+}
+'''
 
-### FA2021
+'''{r}
+add_title("Rachelle Difilippo", "Miss")
+'''
 
-DSBA student at [Florida Polytechnic University](https://www.floridapoly.edu) currently enrolled in: 
+'''{r}
+add_title("Miss. Rachelle Difilippo", "Miss.")
+'''
+Problem #1
 
-- Course 1 Foundation for academic success
+|*Foundation For Academic Success*|*Precalc Algebra/Trigonometry*|*Into to Programming Using Python/Cloud Infrastructure*|*Intro To Data Science*|  
+|------|------|------|------|                                                              
+|**Sls**|**Mac**|**Cop**|**Cop**|     
+|**1901**|**1147**|**2034**|**2073**|     
+|0 Credits|3 Credits|3 Credits|3 Credits|     
 
-- Course 2 Precaculus Algebra/Trigonometry
 
-- Course 3 Introduction to coding using python/ Cloud infrastructure
-
-- Course 4 Introduction to data science
-
-**Hobbies:Gaming, Watching anime, Ocassionally cooking/baking**
-
-I am _passionate about_:
-
-- Thing 1 Being entertaining
-
-- Thing 2 Playing video games
-
-- Thing 3 Watching different animes***
-
-> Last modified: 2021/09/07
+  
 
